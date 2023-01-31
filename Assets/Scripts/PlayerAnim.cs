@@ -10,8 +10,8 @@ public class PlayerAnim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       player = GetComponent<Player>();
-       anim = GetComponent<Animator>();
+        player = GetComponent<Player>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,17 +22,25 @@ public class PlayerAnim : MonoBehaviour
 
     }
 
-#region Movement
+    #region Movement
 
-    void OnMove(){
-
+    void OnMove()
+    {
 
         //sqrMagnitude pega o vetor2 e retorna o seu valor total ex: x = 0 y = 0 retorna 0,  x = 1 y = 1 retorna 1 ele retorna a media dos 2 parametros
-        if (player.direction.sqrMagnitude > 0) 
+        if (player.direction.sqrMagnitude > 0)
         {
-            anim.SetInteger("transition", 1);
+
+            if (player.isRolling)
+            {
+                anim.SetTrigger("isRoll");
+            }
+            else
+            {
+                anim.SetInteger("transition", 1);
+            }
         }
-        else 
+        else
         {
             anim.SetInteger("transition", 0);
         }
@@ -49,11 +57,15 @@ public class PlayerAnim : MonoBehaviour
     }
 
 
-    void OnRun(){
-        if(player.isRunning){
+    void OnRun()
+    {
+        if (player.isRunning)
+        {
             anim.SetInteger("transition", 2);
         }
     }
+
+
 }
 
 #endregion
