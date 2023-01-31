@@ -17,6 +17,14 @@ public class PlayerAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        OnMove();
+        OnRun();
+
+    }
+
+#region Movement
+
+    void OnMove(){
 
 
         //sqrMagnitude pega o vetor2 e retorna o seu valor total ex: x = 0 y = 0 retorna 0,  x = 1 y = 1 retorna 1 ele retorna a media dos 2 parametros
@@ -39,4 +47,13 @@ public class PlayerAnim : MonoBehaviour
             transform.eulerAngles = new Vector2(0, 180);
         }
     }
+
+
+    void OnRun(){
+        if(player.isRunning){
+            anim.SetInteger("transition", 2);
+        }
+    }
 }
+
+#endregion
