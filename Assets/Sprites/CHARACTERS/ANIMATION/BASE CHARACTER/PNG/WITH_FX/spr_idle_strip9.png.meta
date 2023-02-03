@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c5983f3db6ca8a46b0508b0e9ae6426
+guid: 51eb09bfbb3b9794e896a5e831c4d975
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a8859202ddd5814280645d2f3d7c2f8
-      internalID: -1545626857
+      spriteID: 0f2af4fe5ce602e488a6011ef42469ef
+      internalID: 1384258282
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e832ea678fe793946a067aa6108d5b06
-      internalID: -635067759
+      spriteID: 2f23ac5720e0be9469abdcc2e590f024
+      internalID: -691027592
       vertices: []
       indices: 
       edges: []
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b7b0c6bd0920842851ff8fa1927d7b
-      internalID: 384455945
+      spriteID: 80079667ac9a5fe4898c3f8309d30036
+      internalID: 2042450602
       vertices: []
       indices: 
       edges: []
@@ -195,7 +195,7 @@ TextureImporter:
       name: spr_idle_strip9_3
       rect:
         serializedVersion: 2
-        x: 289
+        x: 288
         y: 0
         width: 96
         height: 64
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ccf6e58ba3ed94b9713f5fbdc218cb
-      internalID: 1566200743
+      spriteID: 49ac350fcf7c05e44b79aa8a947db93f
+      internalID: -130456331
       vertices: []
       indices: 
       edges: []
@@ -216,7 +216,7 @@ TextureImporter:
       name: spr_idle_strip9_4
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 0
         width: 96
         height: 64
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14c628765762ad34e83c052f1a573928
-      internalID: -633117057
+      spriteID: e90cda8e0b58c7d4ea9874aabb8df7af
+      internalID: 583360235
       vertices: []
       indices: 
       edges: []
@@ -237,7 +237,7 @@ TextureImporter:
       name: spr_idle_strip9_5
       rect:
         serializedVersion: 2
-        x: 481
+        x: 480
         y: 0
         width: 96
         height: 64
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813af945053e4bc4ab7524349181791e
-      internalID: -884205997
+      spriteID: c1c7abd33bc14e64b968dff494739157
+      internalID: -749808927
       vertices: []
       indices: 
       edges: []
@@ -269,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6c1d072f38b414083948d7cf53fc01
-      internalID: -856408056
+      spriteID: 26aeb480d0281214eb06fcca27a8ce5a
+      internalID: -627583805
       vertices: []
       indices: 
       edges: []
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a675612b03d3b640a02c0ded9bcd393
-      internalID: -630902074
+      spriteID: 455f765ee4523494bacaceab4958cd26
+      internalID: -1766848255
       vertices: []
       indices: 
       edges: []
@@ -311,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54019fbcd16b0e8409dadf9b53e6f033
-      internalID: 1635337721
+      spriteID: 099708b25e88ad44e84462481b0bbe90
+      internalID: -1069276926
       vertices: []
       indices: 
       edges: []
@@ -328,15 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_idle_strip9_1: -635067759
-      spr_idle_strip9_0: -1545626857
-      spr_idle_strip9_3: 1566200743
-      spr_idle_strip9_2: 384455945
-      spr_idle_strip9_8: 1635337721
-      spr_idle_strip9_7: -630902074
-      spr_idle_strip9_5: -884205997
-      spr_idle_strip9_4: -633117057
-      spr_idle_strip9_6: -856408056
+      spr_idle_strip9_1: -691027592
+      spr_idle_strip9_0: 1384258282
+      spr_idle_strip9_3: -130456331
+      spr_idle_strip9_2: 2042450602
+      spr_idle_strip9_8: -1069276926
+      spr_idle_strip9_7: -1766848255
+      spr_idle_strip9_5: -749808927
+      spr_idle_strip9_4: 583360235
+      spr_idle_strip9_6: -627583805
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

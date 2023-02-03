@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerAnim : MonoBehaviour
 {
+
     private Player player;
     private Animator anim;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,6 @@ public class PlayerAnim : MonoBehaviour
     {
         OnMove();
         OnRun();
-
     }
 
     #region Movement
@@ -27,7 +26,6 @@ public class PlayerAnim : MonoBehaviour
     void OnMove()
     {
 
-        //sqrMagnitude pega o vetor2 e retorna o seu valor total ex: x = 0 y = 0 retorna 0,  x = 1 y = 1 retorna 1 ele retorna a media dos 2 parametros
         if (player.direction.sqrMagnitude > 0)
         {
 
@@ -45,17 +43,15 @@ public class PlayerAnim : MonoBehaviour
             anim.SetInteger("transition", 0);
         }
 
-        //direction verifica se o sprite esta indo para direita ou esquerda "x > 0 = direita","x < 0 = esquerda"
         if (player.direction.x > 0)
         {
             transform.eulerAngles = new Vector2(0, 0);
         }
-        else
+        if (player.direction.x < 0)
         {
             transform.eulerAngles = new Vector2(0, 180);
         }
     }
-
 
     void OnRun()
     {
@@ -65,7 +61,5 @@ public class PlayerAnim : MonoBehaviour
         }
     }
 
-
+    #endregion
 }
-
-#endregion

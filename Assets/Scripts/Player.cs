@@ -4,18 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // SerializeField Permite que a variavel privada(encapsulada) seja vista na ui da engine
+
     [SerializeField] private float speed;
     [SerializeField] private float runSpeed;
 
 
     private Rigidbody2D rig;
 
-    private float inicialSpeed;
+    private float initialSpeed;
     private bool _isRunning;
     private bool _isRolling;
     private Vector2 _direction;
 
+    public Vector2 direction
+    {
+        get { return _direction; }
+        set { _direction = value; }
+    }
 
     public bool isRunning
     {
@@ -29,24 +34,13 @@ public class Player : MonoBehaviour
         set { _isRolling = value; }
     }
 
-    public Vector2 direction
-    {
-        get { return _direction; }
-        set { _direction = value; }
-    }
-
-
-
-
 
     private void Start()
     {
-        // referencia a variavel ao componente
         rig = GetComponent<Rigidbody2D>();
-        inicialSpeed = speed;
+        initialSpeed = speed;
     }
 
-    // Captura inputs e/ou logicas que nao envolvam fisicas
     private void Update()
     {
         OnInput();
@@ -54,24 +48,16 @@ public class Player : MonoBehaviour
         OnRolling();
     }
 
-
-    //Captura logicas que envolvam fisicas
     private void FixedUpdate()
     {
         OnMove();
     }
 
 
-
-
     #region Movement
-
-
     void OnInput()
     {
-        // Input.GetAxisRaw pega o atalho do teclado configurado e, project Settings/input manager
-        // Input.GetAxisRaw retorna sempre (1,-1) correspondente ao seu respectivo eixo
-        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
     }
 
     void OnMove()
@@ -89,7 +75,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            speed = inicialSpeed;
+            speed = initialSpeed;
             _isRunning = false;
         }
     }
@@ -98,14 +84,17 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
+            speed = runSpeed;
             _isRolling = true;
         }
-
         if (Input.GetMouseButtonUp(1))
         {
             _isRolling = false;
+            speed = initialSpeed;
         }
+
     }
+
 
     #endregion
 }

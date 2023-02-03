@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88a6b006806bc8e41a848840f29b2705
+guid: 04afbfe658a3e2b4eb594a2e13139a31
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ecec54a9b6233d4bab732de6db64044
-      internalID: 1281220908
+      spriteID: c0070af4f34f559458d4452e06032fc7
+      internalID: 1896169786
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01c223790f381d45bf147ecd61966ac
-      internalID: 442878802
+      spriteID: e1114e8b9ef6b6e4d8b1d052687bfaf6
+      internalID: -972317872
       vertices: []
       indices: 
       edges: []
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8d6cf76ef95d874b8cb812c6673bc8c
-      internalID: -1337901178
+      spriteID: 8c3f702c564774a46a881b1598d01303
+      internalID: -1449080694
       vertices: []
       indices: 
       edges: []
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0f2823f451c054ba0e368ddbea0634
-      internalID: 531637046
+      spriteID: 6006fc977f2c69540abef635ea96675a
+      internalID: 572010671
       vertices: []
       indices: 
       edges: []
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f495fefd7b9a2034c9cd3a9b2bc3cbe0
-      internalID: -365978518
+      spriteID: 9b605ffb15f50774aa60f529cf15688e
+      internalID: -2076658230
       vertices: []
       indices: 
       edges: []
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c8217662924a14d9899af9f3a92982
-      internalID: 245083064
+      spriteID: f8bd141837d531b40a4873e241683f74
+      internalID: -1553471740
       vertices: []
       indices: 
       edges: []
@@ -269,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056ea2fd73f25eb458e83f6686403ea0
-      internalID: 1159652494
+      spriteID: 15d7e6ea7cdcbf04a9facc53b2bf0b5f
+      internalID: 1201337923
       vertices: []
       indices: 
       edges: []
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecddf0d0be994c841a5eb493a3b93b14
-      internalID: -1990323006
+      spriteID: 60723bd03f8e67e4c9739073761609e5
+      internalID: 2096696614
       vertices: []
       indices: 
       edges: []
@@ -311,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed0a81336f530e04089017af698f4b4a
-      internalID: 972465446
+      spriteID: a393e292914f5354ba61ae57811e9de3
+      internalID: -1503336724
       vertices: []
       indices: 
       edges: []
@@ -332,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59db08edf0250484aaaade73e10cae61
-      internalID: -555921886
+      spriteID: d6dd9e8b4aae5fb46a0cef68c51e31ba
+      internalID: 1263794175
       vertices: []
       indices: 
       edges: []
@@ -349,16 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_roll_strip10_0: 1281220908
-      spr_roll_strip10_2: -1337901178
-      spr_roll_strip10_8: 972465446
-      spr_roll_strip10_5: 245083064
-      spr_roll_strip10_7: -1990323006
-      spr_roll_strip10_4: -365978518
-      spr_roll_strip10_9: -555921886
-      spr_roll_strip10_6: 1159652494
-      spr_roll_strip10_1: 442878802
-      spr_roll_strip10_3: 531637046
+      spr_roll_strip10_0: 1896169786
+      spr_roll_strip10_2: -1449080694
+      spr_roll_strip10_8: -1503336724
+      spr_roll_strip10_5: -1553471740
+      spr_roll_strip10_7: 2096696614
+      spr_roll_strip10_4: -2076658230
+      spr_roll_strip10_9: 1263794175
+      spr_roll_strip10_6: 1201337923
+      spr_roll_strip10_1: -972317872
+      spr_roll_strip10_3: 572010671
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
