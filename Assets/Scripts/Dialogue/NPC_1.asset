@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a786ccb57a458954f9eed06f02709fc7, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 2707086389778361010, guid: 8f7dd9cc05a8ad34c8f7a238cee0a15a, type: 3}
+  speakerSprite: {fileID: -1207638683, guid: 1cd7c53eae939df4d82b4c3f2410bd05, type: 3}
+  sentences: Ola Mundo!
+  dialogues: []
